@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  header {
+    margin-left: 10%;
+    margin-top: 50px;
+    /* position: fixed; */
+    top: 50px;
+    left: 0;
+    width: 80%;
+    padding: 20px, 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+    background-image: linear-gradient(95deg, hsl(201, 94%, 27%),hwb(168 18% 37%));
+  }
+  .logo {
+    font-size: 2em;
+    font-weight: 900;
+    user-select: none;
+    
+  }
+  .navbar a {
+    position: relative;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    color: black;
+  }
+  /* .navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+  }
+  .navbar a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+  } */
+
+  .navbar .btn {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-left: 50px;
+    transition: 0.5s;
+  }
+  .navbar .btn:hover {
+    background-color: black;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .navbar{
+    border: none;
+    background: transparent;
+    font-size: 1.1em;
+    margin-left: 50px;
+  }
+
+/* conaint and search button  */
+
+  .search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-radius:20px ;
+    background-color: white;
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    
+  }
+
+  input{
+    border: none;
+    width: 70%;
+  }
+
+  .second{
+    /* position: fixed; */
+    height: 300px;
+    padding-top: 70px;
+    /* margin-top: 100px; */
+    width: 80%;
+    margin-left: 10%;
+    background-image: linear-gradient(95deg, hsl(201, 94%, 27%),hwb(168 18% 37%));
+    text-align: center;
+    line-height: 30px;
+  }
+  .second h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .btnn{
+    width: 80px;
+    height: 30px;
+    background: aqua;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    margin-left: 80px;
+}
+
+.therd{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 90px;
+  height: 300px;
+  background-color: rgb(82, 221, 209);
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  position: relative;
+}
+
+
+.div1{
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin-top: -50px;
+  border-radius: 10px;
+  text-align: start;
+  padding: 20px;
+}
+
+.div2{
+  height: 300px;
+  width: 450px;
+  background:linear-gradient(rgb(99, 243, 228),rgb(3, 113, 128)) ;
+  margin-top: -50px;
+  border-radius: 10px;
+  margin-left: -170px;
+  text-align: start;
+  padding: 20px;
+}
+
+.btan{
+  width: 120px;
+  height: 30px;
+  background: aqua;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.icon{
+  margin-top: 40px;
+  color: white;
+  font-size: 20px; 
+  display: flex;
+}
+.icon a{
+  text-decoration: none;
+  color: white;
+  
+}
+.icon ion-icon{
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  transition-duration: 1s;
+  background-color: aqua;
+  border-radius: 50%;
+  margin-left: 10px;  
+
+}
+.icon ion-icon:hover{
+  color: orange;
+
+}
+   
+.browser h2{
+  margin-top: 50px;
+  margin: 50px 0px 20px ;
+}
+
+.containers{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.container{
+  height: 250px;
+  width: 250px;
+  background-color: #ffff;
+  border-radius: 10px;
+  text-align: start;
+  padding: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  margin-bottom: 50px;
+}
